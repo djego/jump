@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jumper</title>
+
+	<link rel="stylesheet" href="src/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="src/css/main.css">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script type="text/javascript" src="src/js/jump.js"></script>
+  </head>
+  <body>
+    <div id="pano"></div>
+    <div id="randomTeleporter">
+    	<button onClick="toggleStreetView()" class="butt2" id="butt1"><i class="fa fa-map-marker"></i> View Map</button>
+    	<button onClick="randPoint()" class="butt"><i class="fa fa-bolt"></i> Jump!</button>
+    </div>
+          <div id="credits" onClick="window.open('http://devio.pe', '_self')"><i class="fa fa-cog"></i> by Devio</div>
+
+  </body>
+</html>
